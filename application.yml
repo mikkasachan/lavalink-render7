@@ -1,0 +1,10 @@
+server:
+  port: ${SERVER_PORT:2333}
+
+lavalink:
+  server:
+    password: ${LAVALINK_PASSWORD:youshallnotpass}
+
+logging:
+  level:
+    root: INFO
